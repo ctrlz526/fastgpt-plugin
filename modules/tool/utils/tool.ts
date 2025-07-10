@@ -2,6 +2,7 @@ import type { z } from 'zod';
 import type { ToolSetConfigType } from '@tool/type';
 import { ToolConfigSchema, ToolSchema, type RunToolSecondParamsType } from '@tool/type/tool';
 import type { ToolListItemType } from '@tool/type/api';
+import { StreamMessageSchema } from '@tool/type/stream';
 import {
   FlowNodeInputTypeEnum,
   SystemInputKeyEnum,

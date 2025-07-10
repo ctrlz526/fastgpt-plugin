@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { InfoString } from '@/type/i18n';
 import { InputSchema, OutputSchema } from './fastgpt';
+import { StreamMessageSchema } from './stream';
 
 /* Call back type */
 export const SystemVarSchema = z.object({

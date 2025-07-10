@@ -7,3 +7,4 @@ export const toolRouter = s.router(contract.tool, {
   getTool: getToolHandler,
   list: getToolsHandler
 });
+export { runToolStreamHandler };
